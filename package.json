@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1"
+
+  },
+  "scripts": {
+    "copy-icons": "powershell -Command \"New-Item -ItemType Directory -Force wwwroot/bootstrap-icons; Copy-Item -Recurse node_modules/bootstrap-icons/* wwwroot/bootstrap-icons/\""
+  }
+
+}
