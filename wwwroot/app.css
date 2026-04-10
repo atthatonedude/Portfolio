@@ -1,6 +1,36 @@
+*{
+    color: #AEC6CF;
+}
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
 }
+body{
+    background-image: url("lib/Pictures/background.jpg");
+    
+}
+#navbar {
+    backdrop-filter: blur(5px);
+    border: groove;
+    border-radius: 35px;
+    border-width: .5px;
+/*    background: linear-gradient(270deg,#1c1d18,#2E2E29)*/
+}
+#About {
+    backdrop-filter: blur(5px);
+    border:thin groove gray;
+    border-radius: 25px;
+    border-width: thick;
+    padding: 20px;
+    
+    /*    border-width: 1px;*/
+/*    background: linear-gradient(270deg,#1c1d18,#2E2E29)*/
+}
+p {
+    font-size:24px
+}
+
+
 
 a, .btn-link {
     color: #006bb7;
