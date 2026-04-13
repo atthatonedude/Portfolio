@@ -16,7 +16,7 @@ body{
     border-width: .5px;
 /*    background: linear-gradient(270deg,#1c1d18,#2E2E29)*/
 }
-#About {
+.About {
     backdrop-filter: blur(5px);
     border:thin groove gray;
     border-radius: 25px;
